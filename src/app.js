@@ -35,7 +35,9 @@ window.onload = function() {
         });
       });
     });
-
-    console.log(dominios);
   });
+
+  for (let i = 0; i < dominios.length; i++) {
+    console.log(dominios[i]);
+  }
 };
